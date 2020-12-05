@@ -16,7 +16,7 @@
 /* hero bg img animation start */
 
 .hero-bkg-animated {
-  background: #7EBE2C url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+  background: #7EBE2C url(https://www.toptal.com/designers/subtlepatterns/patterns/geometry2.png) repeat 0 0;
   width: 100%;
   /* margin: 0; */
   text-align: center;
@@ -152,6 +152,12 @@ animation: 1s blink step-start infinite;
   margin: 0px 15px;
 
 }
+
+.navbar-toggler {
+
+  /* border-color: none !important; */
+}
+
 
 
 .dropdown-menu {
