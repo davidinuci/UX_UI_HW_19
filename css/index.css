@@ -1,0 +1,294 @@
+.jumbotron {
+
+  /* background-image: url("../images/rockOn.jpg"); */
+  background: #7EBE2C ;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height:500px;
+  height:calc(100vh-25px);
+
+  /* height:100vh; */
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+/* hero bg img animation start */
+
+.hero-bkg-animated {
+  background: #7EBE2C url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+  width: 100%;
+  /* margin: 0; */
+  text-align: center;
+  /* height: 300px; */
+  padding-top: 120px;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite;
+
+}
+  @-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+  
+} 
+
+/* hero bg img animation end */
+
+
+/* blinking cursor start */
+
+
+#blinking-cursor {
+  
+/* -webkit-animation: 1s blink  infinite; */
+-moz-animation: 1s blink step-start infinite;
+-ms-animation: 1s blink step-start infinite;
+-o-animation: 1s blink step-start infinite;
+animation: 1s blink step-start infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #7EBE2C;
+  }
+}
+
+
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #7EBE2C;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #7EBE2C;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #7EBE2C;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #7EBE2C;
+  }
+}
+
+/* blinking cursor end */
+
+
+
+/* override original blue color start */
+
+.btn-primary {
+  background-color: #7EBE2C;
+  border-color:#7EBE2C;
+}
+
+.btn-primary:hover {
+  background-color: #7EBE2C;
+  border-color:#7EBE2C;
+}
+
+.btn-primary:click {
+  background-color: #7EBE2C;
+  border-color:#7EBE2C;
+}
+
+/* override original blue color end */
+
+
+.jumbocopy {
+
+  width:70%;
+  min-width:500px;
+  max-width:700px;
+  color:black;
+  text-align: center;
+}
+
+.customNav {
+  position: fixed;
+  width: 100%;
+  background: url("../images/transparency.png");
+  background-color: transparent   !important;
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+
+  margin-left: auto;         /* use up the margin and push to right */
+  margin-right:0      !important;
+
+}
+
+.navbar-brand img {
+  padding-right: 15px;
+  width:65px;
+
+}
+
+.nav-item {
+  margin: 0px 15px;
+
+}
+
+
+.dropdown-menu {
+  background: url("../images/transparency.png");
+  background-color:transparent !important;
+  background-size:cover;
+
+
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #16181b;
+  text-decoration: none;
+  background:black;                            /*????? */
+}
+
+
+
+.customNav a {
+  color:white !important;           
+
+}
+
+.navCTA {
+
+  font-size: 15px;
+}
+
+/* smooth scroll */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* Update CSS */
+
+.content {
+  padding: 50px
+}
+
+
+.sectionHeading {
+  text-align:center;
+
+}
+
+.showsNear {
+  padding:0px 30px 30px 30px;
+
+}
+
+.cardContainer {
+  text-align: center;
+
+}
+
+
+
+/* CSS for Row Why we're better */
+
+.valueProp {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+
+
+.sideAccent {
+  background:#007bff;
+  width:15px;
+}
+
+
+.imageContainer {
+  padding:50px;
+
+}
+
+.imageContainer img {
+  width:100%;
+}
+
+
+
+h1, h2, h3, h4, h5,h6 {
+  font-family:"anton", sans-serif;
+}
+
+p {
+  font-family:"Jura",sans-serif;
+
+
+}
+
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+  margin-top: 50px;
+} 
+.cardContainer {
+  margin-top: 20px;
+}
+.card {
+  margin: 0 auto;
+}
+
+
+/* CSS for Email in the footer */
+
+.emailContain {
+  background:url(../images/emailBG.jpg);
+  background-size: cover;
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  height:500px;
+
+
+}
+
+form {
+  width: 500px;
+  margin: 35px auto;
+  padding: 45px;
+  border: 1px solid #F2F2F2;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40 px rgba (0,0,0,0.1) inset ;
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40 px rgba (0,0,0,0.1) inset ;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40 px rgba (0,0,0,0.1) inset ;
+  background-color: white;
+
+
+}
